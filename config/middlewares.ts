@@ -1,6 +1,7 @@
 export default [
     'strapi::logger',
     'strapi::errors',
+
     {
         name: 'strapi::security',
         config: {
@@ -8,12 +9,15 @@ export default [
                 useDefaults: true,
                 directives: {
                     "default-src": ["'self'"],
+
                     "connect-src": [
                         "'self'",
                         "https:",
                         "http:",
-                        "https://bluestag-frontend.vercel.app"
+                        "https://*.vercel.app",     // allow all Vercel frontends
+                        "https://bluestag-ai-strapi.onrender.com"
                     ],
+
                     "img-src": [
                         "'self'",
                         "data:",
@@ -22,6 +26,7 @@ export default [
                         "http:",
                         "https://bluestag-ai-strapi.onrender.com"
                     ],
+
                     "media-src": [
                         "'self'",
                         "data:",
@@ -30,23 +35,25 @@ export default [
                         "http:",
                         "https://bluestag-ai-strapi.onrender.com"
                     ],
+
                     upgradeInsecureRequests: null,
                 },
             },
         },
     },
+
     {
         name: 'strapi::cors',
         config: {
-            enabled: true,
             headers: '*',
             origin: [
                 "http://localhost:3000",
-                "https://bluestag-frontend.vercel.app",
-                "https://bluestag-ai-strapi.onrender.com"
+                "https://*.vercel.app",                      // allow all Vercel deploys
+                "https://bluestag-ai-strapi.onrender.com",  // backend
             ],
         },
     },
+
     'strapi::poweredBy',
     'strapi::query',
     'strapi::body',
