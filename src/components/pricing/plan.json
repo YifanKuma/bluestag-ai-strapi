@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_pricing_plans",
+  "info": {
+    "displayName": "Plan"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "popular": {
+      "type": "boolean"
+    },
+    "price_monthly": {
+      "type": "decimal"
+    },
+    "price_annual": {
+      "type": "decimal"
+    },
+    "call_minutes_included": {
+      "type": "integer"
+    },
+    "parallel_calls": {
+      "type": "integer"
+    },
+    "icon_key": {
+      "type": "text"
+    },
+    "Feature_Item": {
+      "type": "component",
+      "component": "pricing.features",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_video_ai_flow_steps",
+  "info": {
+    "displayName": "flow-step"
+  },
+  "options": {},
+  "attributes": {
+    "step_number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

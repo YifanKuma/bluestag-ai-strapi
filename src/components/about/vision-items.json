@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_about_vision_items",
+  "info": {
+    "displayName": "vision_items"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

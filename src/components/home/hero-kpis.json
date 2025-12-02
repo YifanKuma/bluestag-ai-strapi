@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_hero_kpis",
+  "info": {
+    "displayName": "hero_kpis"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

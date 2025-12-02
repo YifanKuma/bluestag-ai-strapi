@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_tabs",
+  "info": {
+    "singularName": "services-tab",
+    "pluralName": "services-tabs",
+    "displayName": "Services Tabs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "service_tab": {
+      "type": "component",
+      "component": "sections.service-tab",
+      "repeatable": true
+    }
+  }
+}

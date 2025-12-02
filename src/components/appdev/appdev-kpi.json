@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_appdev_appdev_kpis",
+  "info": {
+    "displayName": "appdev.kpi"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

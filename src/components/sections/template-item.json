@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_template_items",
+  "info": {
+    "displayName": "template_item"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "chips": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

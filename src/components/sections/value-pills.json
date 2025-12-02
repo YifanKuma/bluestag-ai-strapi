@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_value_pills",
+  "info": {
+    "displayName": "value_pills"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

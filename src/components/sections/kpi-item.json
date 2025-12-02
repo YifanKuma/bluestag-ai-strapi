@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_kpi_items",
+  "info": {
+    "displayName": "kpi_item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

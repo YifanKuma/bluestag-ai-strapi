@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_dev_sections",
+  "info": {
+    "singularName": "app-dev-section",
+    "pluralName": "app-dev-sections",
+    "displayName": "app_dev_section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_badge": {
+      "type": "string"
+    },
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_description": {
+      "type": "text"
+    },
+    "story_panels": {
+      "type": "component",
+      "component": "appdev.appdev-story-panel",
+      "repeatable": true
+    },
+    "showcases": {
+      "type": "component",
+      "component": "appdev.appdev-showcase-item",
+      "repeatable": true
+    },
+    "kpis": {
+      "type": "component",
+      "component": "appdev.appdev-kpi",
+      "repeatable": true
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
+    }
+  }
+}

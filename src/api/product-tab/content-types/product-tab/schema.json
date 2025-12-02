@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_tabs",
+  "info": {
+    "singularName": "product-tab",
+    "pluralName": "product-tabs",
+    "displayName": "product_tab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon_key": {
+      "type": "enumeration",
+      "enum": [
+        "voice",
+        "video",
+        "chatbot",
+        "app",
+        "social"
+      ]
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "features": {
+      "type": "component",
+      "component": "home.features",
+      "repeatable": true
+    },
+    "tab_label": {
+      "type": "string"
+    },
+    "cta_label": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "component",
+      "component": "home.badge",
+      "repeatable": true
+    }
+  }
+}

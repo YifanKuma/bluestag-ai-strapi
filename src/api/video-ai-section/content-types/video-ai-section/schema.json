@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "video_ai_sections",
+  "info": {
+    "singularName": "video-ai-section",
+    "pluralName": "video-ai-sections",
+    "displayName": "video-ai-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "badge_label": {
+      "type": "string"
+    },
+    "badge_state": {
+      "type": "enumeration",
+      "enum": [
+        "Coming soon",
+        "New"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "kpi_item": {
+      "type": "component",
+      "component": "video-ai.kpi-item",
+      "repeatable": true
+    },
+    "features": {
+      "type": "component",
+      "component": "video-ai.feature-card",
+      "repeatable": true
+    },
+    "usecases": {
+      "type": "component",
+      "component": "video-ai.usecase-item",
+      "repeatable": true
+    },
+    "showcase": {
+      "type": "component",
+      "component": "video-ai.showcase-item",
+      "repeatable": true
+    },
+    "flow_steps": {
+      "type": "component",
+      "component": "video-ai.flow-step",
+      "repeatable": true
+    },
+    "cta_title": {
+      "type": "string"
+    },
+    "cta_button_label": {
+      "type": "string"
+    },
+    "cta_description": {
+      "type": "text"
+    },
+    "cta_button_link": {
+      "type": "string"
+    }
+  }
+}

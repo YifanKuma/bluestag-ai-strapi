@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_video_ai_kpi_items",
+  "info": {
+    "displayName": "kpi-item"
+  },
+  "options": {},
+  "attributes": {
+    "kpi": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "Gauge",
+        "Clock",
+        "BadgeCheck",
+        "Layers"
+      ]
+    }
+  },
+  "config": {}
+}

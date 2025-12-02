@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_video_ai_showcase_items",
+  "info": {
+    "displayName": "showcase-item"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "Users",
+        "GraduationCap",
+        "Presentation"
+      ]
+    },
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ratio": {
+      "type": "string"
+    },
+    "length": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

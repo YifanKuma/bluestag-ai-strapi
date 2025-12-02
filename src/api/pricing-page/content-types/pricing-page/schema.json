@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing_pages",
+  "info": {
+    "singularName": "pricing-page",
+    "pluralName": "pricing-pages",
+    "displayName": "Pricing Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string",
+      "required": true
+    },
+    "hero_subtitle": {
+      "type": "text"
+    },
+    "hero_toggle_label_monthly": {
+      "type": "string"
+    },
+    "hero_toggle_label_annual": {
+      "type": "string"
+    },
+    "plans": {
+      "type": "component",
+      "component": "pricing.plan",
+      "repeatable": true
+    },
+    "comparison_rows": {
+      "type": "component",
+      "component": "pricing.comparison-row",
+      "repeatable": true
+    },
+    "addons": {
+      "type": "component",
+      "component": "pricing.addon",
+      "repeatable": true
+    },
+    "faqs": {
+      "type": "component",
+      "component": "pricing.faq-item",
+      "repeatable": true
+    }
+  }
+}

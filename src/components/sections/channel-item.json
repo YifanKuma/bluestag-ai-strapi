@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_channel_items",
+  "info": {
+    "displayName": "channel_item"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "highlighted": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_video_ai_usecase_items",
+  "info": {
+    "displayName": "usecase-item"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "Users",
+        "GraduationCap",
+        "Presentation"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

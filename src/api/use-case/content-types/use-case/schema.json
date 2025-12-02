@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "use_cases",
+  "info": {
+    "singularName": "use-case",
+    "pluralName": "use-cases",
+    "displayName": "use_case"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "icon_key": {
+      "type": "enumeration",
+      "enum": [
+        "rocket",
+        "shield",
+        "globe",
+        "plug",
+        "zap",
+        "brain"
+      ]
+    }
+  }
+}

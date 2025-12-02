@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_performance_stats",
+  "info": {
+    "displayName": "performance_stats"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

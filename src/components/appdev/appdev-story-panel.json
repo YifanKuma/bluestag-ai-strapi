@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_appdev_appdev_story_panels",
+  "info": {
+    "displayName": "appdev.story_panel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "pencil-ruler",
+        "server-cog",
+        "lock",
+        "rocket-icon"
+      ]
+    }
+  },
+  "config": {}
+}

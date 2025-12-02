@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_badges",
+  "info": {
+    "displayName": "badge"
+  },
+  "options": {},
+  "attributes": {
+    "badge_icon_key": {
+      "type": "enumeration",
+      "enum": [
+        "cloud",
+        "lightning",
+        "bolt",
+        "shield",
+        "gear"
+      ]
+    },
+    "badge_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

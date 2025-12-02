@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carousel_items",
+  "info": {
+    "singularName": "carousel-item",
+    "pluralName": "carousel-items",
+    "displayName": "carousel_item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "icon_key": {
+      "type": "enumeration",
+      "enum": [
+        "phone_call",
+        "customer_service",
+        "real_estate",
+        "investment",
+        "payment",
+        "education",
+        "wellbeing",
+        "recruitment",
+        "community"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "ai_chatbots",
+  "info": {
+    "singularName": "ai-chatbot",
+    "pluralName": "ai-chatbots",
+    "displayName": "AI Chatbot"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hero_subtitle": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "component": "sections.features",
+      "repeatable": true
+    },
+    "value_pills": {
+      "type": "component",
+      "component": "sections.value-pills",
+      "repeatable": true
+    }
+  }
+}

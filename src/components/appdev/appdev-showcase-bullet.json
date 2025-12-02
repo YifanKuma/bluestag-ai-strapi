@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_appdev_appdev_showcase_bullets",
+  "info": {
+    "displayName": "appdev.showcase_bullet"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

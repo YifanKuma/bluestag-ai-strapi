@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pricing_comparison_rows",
+  "info": {
+    "displayName": "Comparison Row"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "text"
+    },
+    "values": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

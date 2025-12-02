@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voice_ai_sections",
+  "info": {
+    "singularName": "voice-ai-section",
+    "pluralName": "voice-ai-sections",
+    "displayName": "voice-ai-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stat": {
+      "type": "component",
+      "component": "sections.stats-stat",
+      "repeatable": true
+    }
+  }
+}

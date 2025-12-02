@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_contents",
+  "info": {
+    "singularName": "about-content",
+    "pluralName": "about-contents",
+    "displayName": "About Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "story_title": {
+      "type": "string"
+    },
+    "story_description": {
+      "type": "text"
+    },
+    "story_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "story_image_caption_title": {
+      "type": "string"
+    },
+    "story_image_caption_subtitle": {
+      "type": "string"
+    },
+    "vision_title": {
+      "type": "string"
+    },
+    "vision_description": {
+      "type": "string"
+    },
+    "vision_items": {
+      "type": "component",
+      "component": "about.vision-items",
+      "repeatable": true
+    },
+    "cta_title": {
+      "type": "string"
+    },
+    "cta_description": {
+      "type": "text"
+    },
+    "cta_button_text": {
+      "type": "string"
+    },
+    "cta_button_link": {
+      "type": "string"
+    }
+  }
+}

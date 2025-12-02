@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_media_sections",
+  "info": {
+    "singularName": "social-media-section",
+    "pluralName": "social-media-sections",
+    "displayName": "social_media_section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "kpis": {
+      "type": "component",
+      "component": "sections.kpi-item",
+      "repeatable": true
+    },
+    "steps": {
+      "type": "component",
+      "component": "sections.step-item",
+      "repeatable": true
+    },
+    "templates": {
+      "type": "component",
+      "component": "sections.template-item",
+      "repeatable": true
+    },
+    "performance_stats": {
+      "type": "component",
+      "component": "sections.performance-stats",
+      "repeatable": true
+    },
+    "channels": {
+      "type": "component",
+      "component": "sections.channel-item",
+      "repeatable": true
+    },
+    "json_preview": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_appdev_appdev_showcase_items",
+  "info": {
+    "displayName": "appdev.showcase_item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "component",
+      "component": "appdev.appdev-showcase-bullet",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

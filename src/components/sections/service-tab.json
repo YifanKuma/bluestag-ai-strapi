@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_service_tabs",
+  "info": {
+    "displayName": "Service Tab"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "enumeration",
+      "required": false,
+      "enum": [
+        "voice",
+        "video",
+        "chatbot",
+        "appdev",
+        "social"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "Boolean": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "config": {}
+}

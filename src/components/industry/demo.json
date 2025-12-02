@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_industry_demos",
+  "info": {
+    "displayName": "demo"
+  },
+  "options": {},
+  "attributes": {
+    "actor": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

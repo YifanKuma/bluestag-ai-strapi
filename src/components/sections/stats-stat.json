@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_stats_stats",
+  "info": {
+    "displayName": "stats.stat"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "sub": {
+      "type": "string"
+    },
+    "explainerTitle": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "json"
+    },
+    "hintBars": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

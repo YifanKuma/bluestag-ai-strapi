@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_home_features",
+  "info": {
+    "displayName": "features"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "icon_key": {
+      "type": "enumeration",
+      "enum": [
+        "phone",
+        "credit-card",
+        "headphones",
+        "sparkles",
+        "cpu",
+        "zap",
+        "video",
+        "clapperboard",
+        "megaphone",
+        "check",
+        "bot",
+        "message",
+        "code",
+        "app",
+        "server",
+        "shield",
+        "headset",
+        "gauge",
+        "activity"
+      ]
+    }
+  },
+  "config": {}
+}

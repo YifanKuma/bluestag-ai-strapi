@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pricing_faq_items",
+  "info": {
+    "displayName": "FAQ Item"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
